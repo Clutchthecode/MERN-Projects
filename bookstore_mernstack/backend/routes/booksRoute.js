@@ -70,7 +70,7 @@ router.put('/:id',async(req,res)=>{
         if(!result){
             return res.status(404).json({message:"book not found"})
         }
-        return res.status(200).json({message:"book found successfully"})
+        return res.status(200).json({message:"book updated successfully"})
 
         
     } catch (error) {
